@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+body{
+  font-family: lato;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav ul{
+  width: 100%;
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
+.section-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/refugeehome.png')
+}
+.section-hero div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -45px;
+}
+.section-hero div button{
+  background-color: #7ED321;
+  margin-right:40px;
+  border-radius: 8px;
+  height: 100px;
+  width: 300px;
+  color: white;
+  font-size: 48px;
+}
