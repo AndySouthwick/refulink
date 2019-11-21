@@ -1,0 +1,39 @@
+nav{
+  max-width: 1200px;
+  height: 80px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navbar input {
+  width: 576px;
+  height: 32px;
+  border-radius:0 50px 50px 0;
+  border: solid #27708F 1px;
+  
+}
+
+.search{
+  display: flex;
+}
+.search input{
+  padding: 0;
+  margin: 0;
+  padding-left: 8px;
+  color: #27708F;
+  font-size: 24px;
+}
+.search button{
+   border: solid #27708F 1px;
+  background-color: #27708F;
+  border-radius:50px 0 0 50px;
+  height: 34px;
+  width: 48px;
+  padding: 0;
+  margin: 0
+}
+

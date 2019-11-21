@@ -1,0 +1,30 @@
+.card-image{
+  width: 320px;
+  max-height: 335px;
+  /* background-image: url('images/cardimg.png'); */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card-section{
+  margin-top:80px;
+}
+.card{
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+.card-type-box{
+  margin: 16px 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #27708F;
+  padding: 8px 32px;
+  max-width: 100px;
+}
+.card-content{
+  padding: 16px;
+}
